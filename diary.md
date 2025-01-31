@@ -17,7 +17,7 @@ I drew the track, or more specifically, the area beside the road. I also fixed a
 Initially I made everything speed up during nitro boost, but then I realized that the other random cars shouldn't change their speed, so today I fixed that. I also added the final-score / play-again screen. And, I implemented collision detection between the player car and random cars.
 
 21.01:
-I fixed the nitro botton, actually hid it, since it was always visible, so I made it only appear during the game screen, and not on the start screen. I also implemented the explosion spritesheet today. And, I fixed a few more things that weren't quite right.
+I fixed the nitro botton, or hid it, since it was always visible, so I made it only appear during the game screen, and not on the start screen. I also implemented the explosion spritesheet today. And, I fixed a few more things that weren't quite right.
 
 22.01:
 Today I did the final touches on my game, including fixing a few small things, and some minor adjustments/changes.
