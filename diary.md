@@ -23,7 +23,7 @@ I fixed the nitro botton, or hid it, since it was always visible, so I made it o
 Today I did the final touches on my game, including fixing a few small things, and some minor adjustments/changes.
 
 23.01: 
-I fifnished my game yesterday, so today I prepared for tomorrows presentation.
+I finished my game yesterday, so today I prepared for tomorrows presentation.
 
 24.01:
 Presentation day!
