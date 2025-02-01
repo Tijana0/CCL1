@@ -26,4 +26,4 @@ JavaScript – Game logic & interactivity
 CSS – Basic styling
 
 Visuals:
-![game screen](images/)
+![game screen](game.png)
