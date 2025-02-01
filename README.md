@@ -15,7 +15,7 @@
 3. Press the "Nitro Boost" button, or click "N" on the keyboard for a temporary speed increase.
 4. Collect coins and survive as long as possible without crashing!
 
-**Controls: **
+**Controls:**
 Move Left - left arrow or "A"
 Move Right - right arrow or "D"
 Nitro Boost - on-screen button or "N"
