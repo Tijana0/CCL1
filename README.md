@@ -25,5 +25,6 @@ HTML5 Canvas – For rendering the game
 JavaScript – Game logic & interactivity
 CSS – Basic styling
 
-Visuals:
+Visual:
+
 ![game screen](game.png)
