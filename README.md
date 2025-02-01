@@ -22,9 +22,9 @@
 - Nitro Boost - on-screen button or "N"
 
 **Technologies:**
-HTML5 Canvas – For rendering the game
-JavaScript – Game logic & interactivity
-CSS – Basic styling
+- HTML5 Canvas – For rendering the game
+- JavaScript – Game logic & interactivity
+- CSS – Basic styling
 
 **Visual:**
 
