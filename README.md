@@ -17,9 +17,9 @@
 
 **Controls:**
 
-Move Left - left arrow or "A"
-Move Right - right arrow or "D"
-Nitro Boost - on-screen button or "N"
+- Move Left - left arrow or "A"
+- Move Right - right arrow or "D"
+- Nitro Boost - on-screen button or "N"
 
 **Technologies:**
 HTML5 Canvas – For rendering the game
