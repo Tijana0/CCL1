@@ -31,6 +31,7 @@
 ![game screen](game.png)
 
 **Start Screen:**
+
 ![start screen](start.png)
 
 **Backstory:**
@@ -39,4 +40,4 @@ In the sun-lit streets of Nitro Nexus: Pixel Rush, where it's all about speed an
 
 With traffic closing in and rival racers blocking your path, the only  way to stay ahead is by using Nitro Boost. But use it wisely—one wrong move, and it's game over.
 
-Check out the game online: https://cc241005-21008.php.fhstp.cc
+Check out the game [online](https://cc241005-21008.php.fhstp.cc).
