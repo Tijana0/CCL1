@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nitro Nexus: Pixel Rush</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="title" style="text-align: center;">
+        <img src="image/title.png" alt="Nitro Nexus: Pixel Rush" width="210" height="95">
+    </div>
+
+
+    <div id="startScreen">
+        <div class="left-box">
+            <img src="image/main-character.png" alt="main-character" height="400">
+        </div>
+        <div class="right-column">
+            <div class="right-box">
+                <h1>Welcome to Pixel Rush!</h1>
+            </div>
+            <div class="right-box">
+                <button id="startButton">Start</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="gameCanvasContainer"
+        style="display: flex; align-items: center; justify-content: center; max-width: 1136px; position: relative; overflow: hidden;">
+        <div class="grass-container left" style="position: absolute; left: 0; top: 0;">
+            <img id="grassLeft1" src="image/grass/grass-left.png" width="168" height="600" alt="Left grass"
+                style="position: absolute; left: 0;">
+            <img id="grassLeft2" src="image/grass/grass-left.png" width="168" height="600" alt="Left grass"
+                style="position: absolute; left: 0;">
+        </div>
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <div id="canvasOverlay">
+            <button hidden id="nitroButton">Nitro Boost [N]</button>
+        </div>
+        <div class="grass-container right" style="position: absolute; right: 0; top: 0;">
+            <img id="grassRight1" src="image/grass/grass-right.png" width="168" height="600" alt="Right grass"
+                style="position: absolute; right: 0;">
+            <img id="grassRight2" src="image/grass/grass-right.png" width="168" height="600" alt="Right grass"
+                style="position: absolute; right: 0;">
+        </div>
+    </div>
+
+    <p>Use <b><-</b> and <b>-></b>, or <b>"A"</b> and <b>"D"</b> to move left and right. </p>
+    <p>Don't forget to use <b>Nitro Boost</b>!</p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+#gameOverScreen {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-family: Arial;
+  z-index: 1000;
+}
+
+#gameOverScreen button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  background: rgb(255, 111, 0);
+  border: none;
+  color: white;
+  border-radius: 5px;
+} 

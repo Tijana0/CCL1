@@ -1,0 +1,168 @@
+h1 {
+    text-align: center;
+}
+
+#startScreen {
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    background: rgba(145, 145, 145, 0.7);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.left-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.right-box h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: rgb(255, 111, 0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#startButton {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background: rgb(255, 111, 0);
+    border: none;
+    color: white;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#startButton:hover {
+    background: rgb(255, 140, 50);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+canvas {
+    display: block;
+    margin: auto;
+    background-color: rgb(81, 81, 81);
+}
+
+#gameCanvasContainer {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#gameCanvasContainer {
+    position: relative;
+    overflow: hidden;
+}
+
+.grass-container {
+    position: absolute;
+    top: 0;
+    width: 168px;
+    height: 100%;
+}
+
+.grass-container.left {
+    left: 0;
+}
+
+.grass-container.right {
+    right: 0;
+}
+
+.grass-container img {
+    position: absolute;
+    display: block;
+    width: 168px;
+    height: 600px;
+}
+
+#canvasOverlay {
+    position: absolute;
+    bottom: 20px;
+    right: 188px;
+    z-index: 10;
+}
+
+#nitroButton {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    cursor: pointer;
+    background: rgb(255, 111, 0);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+#nitroButton:hover {
+    background: rgb(255, 140, 50);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+#nitroButton:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+} 
+
+p {
+    text-align: center;
+    color: rgb(225, 140, 50);
+}
+
+body {
+    background-color: black;
+}
+
+#gameOverScreen {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    z-index: 1000;
+  }
+  
+  #gameOverScreen button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: rgb(255, 111, 0);
+    border: none;
+    color: white;
+    border-radius: 5px;
+  }
