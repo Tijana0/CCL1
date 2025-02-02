@@ -30,8 +30,13 @@
 
 ![game screen](game.png)
 
+**Start Screen:**
+![start screen](start.png)
+
 **Backstory:**
 
 In the sun-lit streets of Nitro Nexus: Pixel Rush, where it's all about speed and where roads never end, racers from all over the world compete for the championship of the endless highway. You are a rookie driver, who got a chance to compete in the Pixel Rush, a legendary race where only the fastest and most fearless survive.
 
 With traffic closing in and rival racers blocking your path, the only  way to stay ahead is by using Nitro Boost. But use it wisely—one wrong move, and it's game over.
+
+Check out the game online: https://cc241005-21008.php.fhstp.cc
